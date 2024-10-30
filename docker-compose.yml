@@ -16,6 +16,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: $db_host
       WORDPRESS_DB_USER: $db_user
+      WORDPRESS_DB_NAME: $db_name
       WORDPRESS_DB_PASSWORD: $db_password
       WORDPRESS_TABLE_PREFIX: $db_table_prefix
       WORDPRESS_DEBUG: $wp_debug_mode
